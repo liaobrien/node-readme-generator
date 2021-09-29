@@ -17,7 +17,7 @@ const questions = [
       {
             type: "input",
             message: "What is your project's name?",
-            name: "projectName",
+            name: "title",
       },
       {
             type: "input",
@@ -38,16 +38,20 @@ const questions = [
       {
             type: "input",
             message: "What does the user need to know about using the repo?",
-            name: "useRepo",
+            name: "usage",
       },
       {
             type: "input",
             message: "What does the user need to know about contributing to the repo?",
-            name: "contrToRepo",
+            name: "contribute",
       },
 ];
 
-// "What is your GitHub username?", "What is your email address?", "What is your project's name?", "Please write a short description of your project.", "What kind of license should your project have?", "What command should be run to install dependencies?", "What does the user need to know about using the repo?", "What does the user need to know about contributing to the repo?"
+inquirer
+      .prompt(questions)
+      .then((answers) => {
+            console.log(answers);
+      })
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
