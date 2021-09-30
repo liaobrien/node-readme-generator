@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an application that uses a series of user prompts to generate a README markdown file that meets professional standards. It is designed to automate the otherwise tedious process of filling out a README file for a repository.
+This is an application powered by Node.js that uses a series of user prompts to generate a README markdown file that meets professional standards. It is designed to automate the process of creating and filling out a README file for a repository.
 
 ## Table of Contents
 
@@ -35,11 +35,11 @@ $ node index.js
 
 ## Usage
 
-This app is meant to be used in the terminal. After entering the node command above, the user is prompted with a series of questions, with the answers being used to build a professional README file. After all the questions are filled out properly, a README.md file will generate in the folder, which can be opened and modified as necessary.
+This app is meant to be used in the command line. After entering the Node command above, the user is prompted with a series of questions, with the answers being used to build a professional README file. After all the questions are filled out properly, a README file will generate in the folder, which can be opened and modified as necessary.
 
 ## Credits
 
-The node package [Inquirer](https://www.npmjs.com/package/inquirer) was installed for this application.
+The Node package [Inquirer](https://www.npmjs.com/package/inquirer) was installed for this application.
 
 ## License
 
@@ -47,4 +47,4 @@ This project is licensed under the MIT license.
 
 ## Links
 
-A demo of the application can be viewed [here]().
+A demo of the application can be viewed [here](https://drive.google.com/file/d/1-A36_V8jJf7i_mHLKrE-oV88TFb0BwiL/view?usp=sharing).
