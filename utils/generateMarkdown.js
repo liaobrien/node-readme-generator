@@ -11,50 +11,50 @@ function renderLicenseLink(license) { }
 function renderLicenseSection(license) { }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+function generateMarkdown(answers) {
+  return `# ${answers.title}
 
-  ## Description
+## Description
 
-  ${data.description}
+${answers.description}
 
-  ## Table of Contents
+## Table of Contents
 
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contritbuting](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contritbuting](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-  ## Installation
+## Installation
 
-  To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following command:
 
-  ${data.installCommand}
+    ${answers.installCommand}
 
-  ## Usage
+## Usage
 
-  ${data.usage}
+${answers.usage}
 
-  ## License
+## License
 
-  This project is licensed under the ${data.license} license.
+This project is licensed under the ${answers.license} license.
 
-  ## Contributing
+## Contributing
 
-  ${data.contribute}
+${answers.contribute}
 
-  ## Tests
+## Tests
 
-  To run tests, run the following command:
+To run tests, run the following command:
 
-  ${data.testCommand}
+    ${answers.testCommand}
 
-  ## Questions
+## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.name}](https://github.com/${data.name}).
+If you have any questions about the repo, open an issue or contact me directly at ${answers.email}. You can find more of my work at [${answers.name}](https://github.com/${answers.name}).
 `;
 }
 
