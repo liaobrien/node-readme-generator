@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-    return `![](https://img.shields.io/badge/license-${license}%20License-blue?style=flat-square)`;
+    return `![](https://img.shields.io/badge/license-${license}-blue?style=flat-square)`;
   }
   else {
     return ``;
@@ -11,7 +11,14 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {
+  if (license !== 'None') {
+    return `* [License](#license)`;
+  }
+  else {
+    return ``;
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -32,7 +39,7 @@ ${answers.description}
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
+${renderLicenseLink(answers.license)}
 * [Contritbuting](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
