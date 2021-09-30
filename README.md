@@ -48,4 +48,4 @@ This project is licensed under the MIT license.
 
 ## Links
 
-A demo of the application can be viewed [here](https://drive.google.com/file/d/1-A36_V8jJf7i_mHLKrE-oV88TFb0BwiL/view?usp=sharing).
+A demo of the application can be viewed [here](https://youtu.be/6Tj432l9ZlQ).
