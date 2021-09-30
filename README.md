@@ -10,6 +10,7 @@ This is an application powered by Node.js that uses a series of user prompts to 
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Links](#links)
 
 ## Installation
 
